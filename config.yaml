@@ -1,0 +1,8 @@
+# config.yaml
+# ────────────
+# TCP listener settings
+host: "0.0.0.0"       # interface to bind (e.g. 0.0.0.0 for all, or 127.0.0.1 for localhost)
+port: 8080            # TCP port to listen on
+
+# How often to log stats; any valid Go duration string ("30m", "1h", "15s", etc.)
+statsInterval: "1h"
